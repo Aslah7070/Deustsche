@@ -23,7 +23,7 @@ const NavbarRight = () => {
         </button>
       </div>
     </div>
-  )
+  )    
 }
 
 export default NavbarRight

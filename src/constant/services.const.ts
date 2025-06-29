@@ -14,7 +14,7 @@ export const services = [
   {
     id: 3,
     image: "https://i.pinimg.com/736x/fe/8c/f9/fe8cf94f2697c19c2bd23797ed922759.jpg",
- 
+      
   },
     {
     id: 3,
