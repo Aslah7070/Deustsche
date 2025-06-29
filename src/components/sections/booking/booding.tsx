@@ -4,10 +4,10 @@ import BookingLeft from './BookingLeft'
 
 const Booking = () => {
   return (
-    <div className=' md:flex w-full'>
-        {/* <div className='w-2/4'> */}
+    <div className=' md:flex w-full  justify-around '>
+      
             <BookingLeft/>
-        {/* </div> */}
+  
       <BookingRingt/>
     </div>
   )

@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const BookingRingt = () => {
   return (
-    <div className="w-full md:w-2/4 md:mt-60   p-4 md:p-8 flex flex-col items-center justify-center relative">
+    <div className=" md:w-2/4 md:mt-60   p-4 md:p-8 flex flex-col items-center justify-center  relative">
       
       {/* Main Card */}
       <div className="bg-white rounded-3xl shadow-2xl overflow-hidden w-full max-w-xs sm:max-w-sm md:max-w-md relative">

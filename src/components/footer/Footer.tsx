@@ -1,3 +1,5 @@
+import { socialMedia } from '@/constant/socialmedia.const';
+import Image from 'next/image';
 import React from 'react';
 
 export default function JadooFooter() {
@@ -50,32 +52,38 @@ export default function JadooFooter() {
             <p className="text-gray-500 text-sm mb-4">Discover our app</p>
             
             {/* Social Icons */}
-            <div className="flex gap-3 mb-6">
-              {['blue-600', 'blue-500', 'pink-500'].map((color, i) => (
-                <div key={i} className="w-10 h-10 bg-white rounded-full shadow flex items-center justify-center">
-                  <span className={`w-5 h-5 rounded-full bg-${color}`}></span>
-                </div>
-              ))}
-            </div>
+           <div className="flex gap-3 mb-6">
+  {socialMedia.map(({ id, icon: Icon }) => (
+    <div key={id} className="w-10 h-10 bg-white rounded-full shadow flex items-center justify-center">
+      <Icon className='bg-white'  />
+    </div>
+  ))}
+</div>
 
             {/* App Buttons */}
-            <div className="space-y-3">
+            <div className="space-y-3 justify-between items-center w-[300px]  ">
               <div className="bg-black rounded-lg px-4 py-2 flex items-center gap-2 w-fit">
-                <span className="w-6 h-6 bg-white rounded-full"></span>
-                <div className="text-white text-xs">
-                  <div>GET IT ON</div>
-                  <div className="font-semibold">App Store</div>
+                <span className="w-8 h-6 bg-white rounded-full">
+                  <Image src='https://i.pinimg.com/736x/0d/d5/68/0dd568da2a7650b3967f0392b1afceb4.jpg' width={100}height={100} alt='playstore' />
+                </span>
+                <div className="text-white text-xs ">
+                  <div>GET IT ON </div>
+                  <div className="font-semibold"> App Store</div>
                 </div>
               </div>
               
               <div className="bg-black rounded-lg px-4 py-2 flex items-center gap-2 w-fit">
-                <span className="w-6 h-6 bg-white rounded-full"></span>
+               <span className="w-8 h-6 bg-white rounded-full">
+                  <Image src='https://i.pinimg.com/736x/db/fe/75/dbfe75990174020a7ebf8799999212d8.jpg' width={100}height={100} alt='playstore' />
+                </span>
                 <div className="text-white text-xs">
                   <div>GET IT ON</div>
                   <div className="font-semibold">Google Play</div>
                 </div>
               </div>
             </div>
+
+            
           </div>
         </div>
 

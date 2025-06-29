@@ -69,7 +69,7 @@ const HeroRight = () => {
                         className='absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-2 w-60 h-32 bg-black/20 rounded-full blur-sm'
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
-                        transition={{ duration: 0.8, delay: 0.8 }}
+                        transition={{ duration: 0.8, delay: 0 }}
                     />
                 </motion.div>
             </div>

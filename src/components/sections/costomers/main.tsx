@@ -4,28 +4,7 @@ import { services } from "@/constant/services.const";
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
 
-// export const services = [
-//   {
-//     id: 1,
-//     image: "https://i.pinimg.com/736x/fd/0e/de/fd0edefdc9a585324f3df11b1624c6dc.jpg",
-//   },
-//   {
-//     id: 2,
-//     image: "https://i.pinimg.com/736x/62/12/73/6212733e6aa3359fc385ba12219cc384.jpg",
-//   },
-//   {
-//     id: 3,
-//     image: "https://i.pinimg.com/736x/fe/8c/f9/fe8cf94f2697c19c2bd23797ed922759.jpg",
-//   },
-//   {
-//     id: 4,
-//     image: "https://i.pinimg.com/736x/34/ba/7b/34ba7be2335bbf050b7aac9252cc0ddc.jpg",
-//   },
-//   {
-//     id: 5,
-//     image: "https://i.pinimg.com/736x/91/fd/f0/91fdf01ba1c7ca974393b353655558fc.jpg",
-//   },
-// ];
+
 
 const ServicesSection = () => {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -69,9 +48,7 @@ const ServicesSection = () => {
   return (
     <section className=" text-white py-20 px-6 lg:px-20">
       <div className="text-center mb-12">
-        <div className="text-xs bg-yellow-400 text-black inline-block px-3 py-1 rounded-full mb-4">
-          Our Services
-        </div>
+
         <h2 className="text-4xl font-semibold leading-tight">
           Explore our service offerings
         </h2>

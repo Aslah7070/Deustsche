@@ -1,11 +1,12 @@
 import { MENU } from '@/constant/menu.constant'
 import React from 'react'
+import Language from './Language'
 
 const NavbarRight = () => {
   return (
     <div className="w-full  flex md:mr-25 md:justify-end justify-center  z-[99]">
 
-      <div className="hidden md:flex items-center gap-6 lg:gap-10">
+      <div className="hidden md:flex items-center  gap-6 lg:gap-10">
         {MENU.map((item) => (
           <p
             key={item.id}
@@ -15,6 +16,7 @@ const NavbarRight = () => {
           </p>
         ))}
       </div>
+      <Language  />
 
       <div className="flex md:hidden">
         
