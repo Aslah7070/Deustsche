@@ -30,7 +30,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
 
-        {/* <p className="bg-red-600">hello</p> */}
+       <Navbar />
        
         {children}
         <JadooFooter/>
