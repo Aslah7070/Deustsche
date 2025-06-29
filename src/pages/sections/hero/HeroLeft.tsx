@@ -41,7 +41,7 @@
 // export default HeroLeft
 
 
-import { Button } from "@/pages/ui/button"
+import { Button } from "@/ui/button"
 import Image from "next/image"
 
 const HeroLeft = () => {
